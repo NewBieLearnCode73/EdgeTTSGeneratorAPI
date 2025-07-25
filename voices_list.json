@@ -1,0 +1,1934 @@
+[
+  {
+    "name": "af-ZA-AdriNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "af-ZA-WillemNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "am-ET-AmehaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "am-ET-MekdesNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-AE-FatimaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-AE-HamdanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-BH-AliNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-BH-LailaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-DZ-AminaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-DZ-IsmaelNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-EG-SalmaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-EG-ShakirNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-IQ-BasselNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-IQ-RanaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-JO-SanaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-JO-TaimNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-KW-FahedNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-KW-NouraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-LB-LaylaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-LB-RamiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-LY-ImanNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-LY-OmarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-MA-JamalNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-MA-MounaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-OM-AbdullahNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-OM-AyshaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-QA-AmalNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-QA-MoazNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-SA-HamedNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-SA-ZariyahNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-SY-AmanyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-SY-LaithNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-TN-HediNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-TN-ReemNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-YE-MaryamNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ar-YE-SalehNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "az-AZ-BabekNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "az-AZ-BanuNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bg-BG-BorislavNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bg-BG-KalinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bn-BD-NabanitaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bn-BD-PradeepNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bn-IN-BashkarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bn-IN-TanishaaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bs-BA-GoranNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "bs-BA-VesnaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ca-ES-EnricNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ca-ES-JoanaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "cs-CZ-AntoninNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "cs-CZ-VlastaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "cy-GB-AledNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "cy-GB-NiaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "da-DK-ChristelNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "da-DK-JeppeNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-AT-IngridNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-AT-JonasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-CH-JanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-CH-LeniNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-AmalaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-ConradNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-FlorianMultilingualNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-KatjaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-KillianNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "de-DE-SeraphinaMultilingualNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "el-GR-AthinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "el-GR-NestorasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-AU-NatashaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-AU-WilliamMultilingualNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-CA-ClaraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-CA-LiamNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-GB-LibbyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-GB-MaisieNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-GB-RyanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-GB-SoniaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-GB-ThomasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-HK-SamNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-HK-YanNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-IE-ConnorNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-IE-EmilyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-IN-NeerjaExpressiveNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-IN-NeerjaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-IN-PrabhatNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-KE-AsiliaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-KE-ChilembaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-NG-AbeoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-NG-EzinneNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-NZ-MitchellNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-NZ-MollyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-PH-JamesNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-PH-RosaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-SG-LunaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-SG-WayneNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-TZ-ElimuNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-TZ-ImaniNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-US-AnaNeural",
+    "gender": "Female",
+    "categories": "Cartoon, Conversation",
+    "personalities": "Cute"
+  },
+  {
+    "name": "en-US-AndrewMultilingualNeural",
+    "gender": "Male",
+    "categories": "Conversation, Copilot",
+    "personalities": "Warm, Confident, Authentic, Honest"
+  },
+  {
+    "name": "en-US-AndrewNeural",
+    "gender": "Male",
+    "categories": "Conversation, Copilot",
+    "personalities": "Warm, Confident, Authentic, Honest"
+  },
+  {
+    "name": "en-US-AriaNeural",
+    "gender": "Female",
+    "categories": "News, Novel",
+    "personalities": "Positive, Confident"
+  },
+  {
+    "name": "en-US-AvaMultilingualNeural",
+    "gender": "Female",
+    "categories": "Conversation, Copilot",
+    "personalities": "Expressive, Caring, Pleasant, Friendly"
+  },
+  {
+    "name": "en-US-AvaNeural",
+    "gender": "Female",
+    "categories": "Conversation, Copilot",
+    "personalities": "Expressive, Caring, Pleasant, Friendly"
+  },
+  {
+    "name": "en-US-BrianMultilingualNeural",
+    "gender": "Male",
+    "categories": "Conversation, Copilot",
+    "personalities": "Approachable, Casual, Sincere"
+  },
+  {
+    "name": "en-US-BrianNeural",
+    "gender": "Male",
+    "categories": "Conversation, Copilot",
+    "personalities": "Approachable, Casual, Sincere"
+  },
+  {
+    "name": "en-US-ChristopherNeural",
+    "gender": "Male",
+    "categories": "News, Novel",
+    "personalities": "Reliable, Authority"
+  },
+  {
+    "name": "en-US-EmmaMultilingualNeural",
+    "gender": "Female",
+    "categories": "Conversation, Copilot",
+    "personalities": "Cheerful, Clear, Conversational"
+  },
+  {
+    "name": "en-US-EmmaNeural",
+    "gender": "Female",
+    "categories": "Conversation, Copilot",
+    "personalities": "Cheerful, Clear, Conversational"
+  },
+  {
+    "name": "en-US-EricNeural",
+    "gender": "Male",
+    "categories": "News, Novel",
+    "personalities": "Rational"
+  },
+  {
+    "name": "en-US-GuyNeural",
+    "gender": "Male",
+    "categories": "News, Novel",
+    "personalities": "Passion"
+  },
+  {
+    "name": "en-US-JennyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Considerate, Comfort"
+  },
+  {
+    "name": "en-US-MichelleNeural",
+    "gender": "Female",
+    "categories": "News, Novel",
+    "personalities": "Friendly, Pleasant"
+  },
+  {
+    "name": "en-US-RogerNeural",
+    "gender": "Male",
+    "categories": "News, Novel",
+    "personalities": "Lively"
+  },
+  {
+    "name": "en-US-SteffanNeural",
+    "gender": "Male",
+    "categories": "News, Novel",
+    "personalities": "Rational"
+  },
+  {
+    "name": "en-ZA-LeahNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "en-ZA-LukeNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-AR-ElenaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-AR-TomasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-BO-MarceloNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-BO-SofiaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CL-CatalinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CL-LorenzoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CO-GonzaloNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CO-SalomeNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CR-JuanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CR-MariaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CU-BelkysNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-CU-ManuelNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-DO-EmilioNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-DO-RamonaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-EC-AndreaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-EC-LuisNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-ES-AlvaroNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-ES-ElviraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-ES-XimenaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-GQ-JavierNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-GQ-TeresaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-GT-AndresNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-GT-MartaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-HN-CarlosNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-HN-KarlaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-MX-DaliaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-MX-JorgeNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-NI-FedericoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-NI-YolandaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PA-MargaritaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PA-RobertoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PE-AlexNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PE-CamilaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PR-KarinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PR-VictorNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PY-MarioNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-PY-TaniaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-SV-LorenaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-SV-RodrigoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-US-AlonsoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-US-PalomaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-UY-MateoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-UY-ValentinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-VE-PaolaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "es-VE-SebastianNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "et-EE-AnuNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "et-EE-KertNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fa-IR-DilaraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fa-IR-FaridNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fi-FI-HarriNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fi-FI-NooraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fil-PH-AngeloNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fil-PH-BlessicaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-BE-CharlineNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-BE-GerardNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CA-AntoineNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CA-JeanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CA-SylvieNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CA-ThierryNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CH-ArianeNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-CH-FabriceNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-FR-DeniseNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-FR-EloiseNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-FR-HenriNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-FR-RemyMultilingualNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "fr-FR-VivienneMultilingualNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ga-IE-ColmNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ga-IE-OrlaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "gl-ES-RoiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "gl-ES-SabelaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "gu-IN-DhwaniNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "gu-IN-NiranjanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "he-IL-AvriNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "he-IL-HilaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hi-IN-MadhurNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hi-IN-SwaraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hr-HR-GabrijelaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hr-HR-SreckoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hu-HU-NoemiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "hu-HU-TamasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "id-ID-ArdiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "id-ID-GadisNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "is-IS-GudrunNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "is-IS-GunnarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "it-IT-DiegoNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "it-IT-ElsaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "it-IT-GiuseppeMultilingualNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "it-IT-IsabellaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "iu-Cans-CA-SiqiniqNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "iu-Cans-CA-TaqqiqNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "iu-Latn-CA-SiqiniqNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "iu-Latn-CA-TaqqiqNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ja-JP-KeitaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ja-JP-NanamiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "jv-ID-DimasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "jv-ID-SitiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ka-GE-EkaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ka-GE-GiorgiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "kk-KZ-AigulNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "kk-KZ-DauletNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "km-KH-PisethNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "km-KH-SreymomNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "kn-IN-GaganNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "kn-IN-SapnaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ko-KR-HyunsuMultilingualNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ko-KR-InJoonNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ko-KR-SunHiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lo-LA-ChanthavongNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lo-LA-KeomanyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lt-LT-LeonasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lt-LT-OnaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lv-LV-EveritaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "lv-LV-NilsNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mk-MK-AleksandarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mk-MK-MarijaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ml-IN-MidhunNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ml-IN-SobhanaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mn-MN-BataaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mn-MN-YesuiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mr-IN-AarohiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mr-IN-ManoharNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ms-MY-OsmanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ms-MY-YasminNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mt-MT-GraceNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "mt-MT-JosephNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "my-MM-NilarNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "my-MM-ThihaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nb-NO-FinnNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nb-NO-PernilleNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ne-NP-HemkalaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ne-NP-SagarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nl-BE-ArnaudNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nl-BE-DenaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nl-NL-ColetteNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nl-NL-FennaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "nl-NL-MaartenNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pl-PL-MarekNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pl-PL-ZofiaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ps-AF-GulNawazNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ps-AF-LatifaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pt-BR-AntonioNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pt-BR-FranciscaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pt-BR-ThalitaMultilingualNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pt-PT-DuarteNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "pt-PT-RaquelNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ro-RO-AlinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ro-RO-EmilNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ru-RU-DmitryNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ru-RU-SvetlanaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "si-LK-SameeraNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "si-LK-ThiliniNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sk-SK-LukasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sk-SK-ViktoriaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sl-SI-PetraNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sl-SI-RokNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "so-SO-MuuseNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "so-SO-UbaxNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sq-AL-AnilaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sq-AL-IlirNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sr-RS-NicholasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sr-RS-SophieNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "su-ID-JajangNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "su-ID-TutiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sv-SE-MattiasNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sv-SE-SofieNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sw-KE-RafikiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sw-KE-ZuriNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sw-TZ-DaudiNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "sw-TZ-RehemaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-IN-PallaviNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-IN-ValluvarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-LK-KumarNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-LK-SaranyaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-MY-KaniNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-MY-SuryaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-SG-AnbuNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ta-SG-VenbaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "te-IN-MohanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "te-IN-ShrutiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "th-TH-NiwatNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "th-TH-PremwadeeNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "tr-TR-AhmetNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "tr-TR-EmelNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "uk-UA-OstapNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "uk-UA-PolinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ur-IN-GulNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ur-IN-SalmanNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ur-PK-AsadNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "ur-PK-UzmaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "uz-UZ-MadinaNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "uz-UZ-SardorNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "vi-VN-HoaiMyNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "vi-VN-NamMinhNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-CN-XiaoxiaoNeural",
+    "gender": "Female",
+    "categories": "News, Novel",
+    "personalities": "Warm"
+  },
+  {
+    "name": "zh-CN-XiaoyiNeural",
+    "gender": "Female",
+    "categories": "Cartoon, Novel",
+    "personalities": "Lively"
+  },
+  {
+    "name": "zh-CN-YunjianNeural",
+    "gender": "Male",
+    "categories": "Sports, Novel",
+    "personalities": "Passion"
+  },
+  {
+    "name": "zh-CN-YunxiNeural",
+    "gender": "Male",
+    "categories": "Novel",
+    "personalities": "Lively, Sunshine"
+  },
+  {
+    "name": "zh-CN-YunxiaNeural",
+    "gender": "Male",
+    "categories": "Cartoon, Novel",
+    "personalities": "Cute"
+  },
+  {
+    "name": "zh-CN-YunyangNeural",
+    "gender": "Male",
+    "categories": "News",
+    "personalities": "Professional, Reliable"
+  },
+  {
+    "name": "zh-CN-liaoning-XiaobeiNeural",
+    "gender": "Female",
+    "categories": "Dialect",
+    "personalities": "Humorous"
+  },
+  {
+    "name": "zh-CN-shaanxi-XiaoniNeural",
+    "gender": "Female",
+    "categories": "Dialect",
+    "personalities": "Bright"
+  },
+  {
+    "name": "zh-HK-HiuGaaiNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-HK-HiuMaanNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-HK-WanLungNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-TW-HsiaoChenNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-TW-HsiaoYuNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zh-TW-YunJheNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zu-ZA-ThandoNeural",
+    "gender": "Female",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  },
+  {
+    "name": "zu-ZA-ThembaNeural",
+    "gender": "Male",
+    "categories": "General",
+    "personalities": "Friendly, Positive"
+  }
+]
