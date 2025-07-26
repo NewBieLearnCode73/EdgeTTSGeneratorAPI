@@ -1,5 +1,1 @@
-
-
-const UserController = {
-    
-}
+const UserController = {};

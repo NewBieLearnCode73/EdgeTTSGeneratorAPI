@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { exec } = require("child_process");
-const VoiceModel = require("../models/Voice")
+const VoiceModel = require("../models/Voice");
+const { stderr, stdout } = require("process");
 
 const parseVoices = (voices_text) => {
   const lines = voices_text.trim().split("\n").slice(2);
@@ -12,7 +13,7 @@ const parseVoices = (voices_text) => {
 };
 
 const fetchVoiceListFromEdge = async () => {
-    exec("edge-tts --list-voices", (error, stdout, stderr) => {
+  exec("edge-tts --list-voices", (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return;
@@ -34,11 +35,29 @@ const fetchVoiceListFromEdge = async () => {
       },
     }));
 
-
-    VoiceModel.bulkWrite(ops)
+    VoiceModel.bulkWrite(ops);
 
     console.log("Voice list saved to voices_list.json");
   });
 };
 
-module.exports = fetchVoiceListFromEdge;
+const generateVoice = (name, text, username) => {
+  const folderPath = "./storage";
+
+  if (!fs.existsSync(folderPath)) {
+    fs.mkdirSync(folderPath);
+  }
+
+  const fileName = `${folderPath}/voice-${username}-${Date.now()}.mp3`;
+  const commandExec = `edge-tts --voice "${name}" --text "${text}" --write-media "${fileName}"`;
+
+  exec(commandExec, (err, stdout, stderr) => {
+    if (err) {
+      console.error(`exec error: ${err}`);
+      return;
+    }
+
+    console.log("Voice file created:", fileName);
+  });
+};
+module.exports = { fetchVoiceListFromEdge, generateVoice };

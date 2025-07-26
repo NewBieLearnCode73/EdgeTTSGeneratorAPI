@@ -10,17 +10,18 @@ const MONGODB_URL = process.env.MONGODB_URL;
 const cors = require('cors')
 
 const AuthRouter = require("./routes/AuthRouter")
+const VoiceRouter = require("./routes/VoiceRouter");
 
-
-mongoDBConnection(MONGODB_URL)
+mongoDBConnection(MONGODB_URL);
 
 app.use(cors());
 app.use(express.json());
 
-fetchVoiceListFromEdge()
+fetchVoiceListFromEdge();
 
 // Route
-app.use("/api/v1/auth", AuthRouter)
+app.use("/api/v1/auth", AuthRouter);
+app.use("/api/v1/voices", VoiceRouter);
 
 
 
