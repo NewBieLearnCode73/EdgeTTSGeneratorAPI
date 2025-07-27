@@ -1,6 +1,6 @@
 const express = require("express")
 const mongoDBConnection = require("./utils/Connection")
-const fetchVoiceListFromEdge = require("./services/VoiceService")
+const { fetchVoiceListFromEdge } = require("./services/VoiceService");
 const GlobalHandleError = require("./errors/GlobalHandleError")
 const UrlHandleError = require("./errors/UrlHandleError")
 const dotenv = require("dotenv").config()

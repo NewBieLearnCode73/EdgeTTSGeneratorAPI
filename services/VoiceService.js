@@ -41,15 +41,16 @@ const fetchVoiceListFromEdge = async () => {
   });
 };
 
-const generateVoice = (name, text, username) => {
+const generateVoice = (voice_name, text, username) => {
   const folderPath = "./storage";
 
   if (!fs.existsSync(folderPath)) {
     fs.mkdirSync(folderPath);
   }
 
-  const fileName = `${folderPath}/voice-${username}-${Date.now()}.mp3`;
-  const commandExec = `edge-tts --voice "${name}" --text "${text}" --write-media "${fileName}"`;
+  const fileName = `voice-${username}-${Date.now()}.mp3`;
+  const filePath = `${folderPath}/${fileName}`;
+  const commandExec = `edge-tts --voice "${voice_name}" --text "${text}" --write-media "${filePath}"`;
 
   exec(commandExec, (err, stdout, stderr) => {
     if (err) {
@@ -59,5 +60,7 @@ const generateVoice = (name, text, username) => {
 
     console.log("Voice file created:", fileName);
   });
+
+  return fileName;
 };
 module.exports = { fetchVoiceListFromEdge, generateVoice };

@@ -22,3 +22,5 @@ const MiddlewareJWTToken = async (req, res, next) => {
     return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.UNAUTHORIZED, "Invalid Token!"));
   }
 };
+
+module.exports = MiddlewareJWTToken;

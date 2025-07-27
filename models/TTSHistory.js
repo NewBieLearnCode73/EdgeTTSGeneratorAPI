@@ -2,8 +2,8 @@ const mongoose = require("mongoose");
 
 const TTSHistorySchema = new mongoose.Schema(
   {
-    userId: {
-      type: mongoose.Schema.Types.ObjectId,
+    username: {
+      type: String,
       required: true,
     },
     text: {
@@ -14,7 +14,7 @@ const TTSHistorySchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    mp3Path: {
+    fileName: {
       type: String,
       required: true,
     },
