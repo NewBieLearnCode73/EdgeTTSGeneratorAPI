@@ -1,6 +1,7 @@
 const ApiError = require("../utils/ApiError");
 const HTTP_STATUS_CODE = require("http-status-codes");
-const Voice = require("../models/Voice")
+const UserQuotaSchema = require("../models/UserQuota");
+const Voice = require("../models/Voice");
 const TTSHistory = require("../models/TTSHistory");
 const path = require("path");
 const { generateVoice } = require("../services/VoiceService");
@@ -36,6 +37,14 @@ const VoiceController = {
     if (!voice) {
       return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Voice name does not exist!"));
     }
+
+    // Finding user quota
+    const userQuota = await UserQuotaSchema.getOrCreateDailyQuota(username);
+
+    if (!userQuota.canMakeRequest()) {
+      return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.LOCKED, "Daily quota exceeded (10 requests/day)"));
+    }
+    await userQuota.incrementRequest();
 
     const fileName = generateVoice(voice_name, text, username);
 
