@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const uuid = require("uuid");
 
 const UserSchema = new mongoose.Schema(
   {
@@ -28,6 +29,16 @@ const UserSchema = new mongoose.Schema(
       type: String,
       enum: ["USER", "ADMIN"],
       default: "USER",
+    },
+
+    isEmailVerified: {
+      type: Boolean,
+      default: false,
+    },
+
+    codeVerification: {
+      type: String,
+      default: () => uuid.v4(),
     },
   },
   {

@@ -1,23 +1,24 @@
 const express = require("express")
+require("dotenv").config();
 const mongoDBConnection = require("./utils/Connection")
 const { fetchVoiceListFromEdge } = require("./services/VoiceService");
 const GlobalHandleError = require("./errors/GlobalHandleError")
-const UrlHandleError = require("./errors/UrlHandleError")
-const dotenv = require("dotenv").config()
-const app = express()
+const UrlHandleError = require("./errors/UrlHandleError");
+const app = express();
 const PORT = process.env.SERVER_PORT;
 const MONGODB_URL = process.env.MONGODB_URL;
-const cors = require('cors')
+const cors = require("cors");
 
-const AuthRouter = require("./routes/AuthRouter")
+const AuthRouter = require("./routes/AuthRouter");
 const VoiceRouter = require("./routes/VoiceRouter");
 const UserQuotaRouter = require("./routes/UserQuotaRouter");
 
 mongoDBConnection(MONGODB_URL);
 
-app.use(cors());
 app.use(express.json());
+app.use(cors());
 
+// Fetch and save voice list from Edge TTS
 fetchVoiceListFromEdge();
 
 // Route

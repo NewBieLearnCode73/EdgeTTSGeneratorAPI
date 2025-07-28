@@ -3,6 +3,9 @@ const HTTP_STATUS_CODE = require("http-status-codes");
 const User = require("../models/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
+const uuid = require("uuid");
+const { sendResetPasswordEmail, sendVerificationEmail } = require("../utils/BrevoUtils");
+const { GenerateResetPasswordEmail, GeneratedVerifyAccountEmail } = require("../utils/GenerateAccountEmail");
 require("dotenv").config();
 
 const AuthController = {
@@ -31,11 +34,22 @@ const AuthController = {
         email,
       });
 
+      // Store user data in MongoDB
       const savedUser = await newUser.save();
+
+      // Send verification email
+      const verificationLink = GeneratedVerifyAccountEmail(email, savedUser.codeVerification);
+
+      await sendVerificationEmail(email, verificationLink);
 
       return res.status(HTTP_STATUS_CODE.StatusCodes.CREATED).json({
         statusCode: HTTP_STATUS_CODE.StatusCodes.CREATED,
         message: `Create user with username ${savedUser.username} successfully!`,
+        data: {
+          userId: savedUser._id,
+          username: savedUser.username,
+          email: savedUser.email,
+        },
       });
     } catch (err) {
       next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
@@ -76,6 +90,98 @@ const AuthController = {
           accessToken,
           refreshToken,
         },
+      });
+    } catch (err) {
+      next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
+    }
+  },
+
+  // Verify email
+  verifyEmail: async (req, res, next) => {
+    try {
+      const { code, email } = req.query;
+
+      if (!code || !email) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Code and email are required!"));
+      }
+
+      const user = await User.findOne({ email, codeVerification: code });
+
+      if (!user) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.NOT_FOUND, "User not found or code is invalid!"));
+      }
+
+      user.isEmailVerified = true;
+      user.codeVerification = null;
+      await user.save();
+
+      return res.status(HTTP_STATUS_CODE.StatusCodes.OK).json({
+        statusCode: HTTP_STATUS_CODE.StatusCodes.OK,
+        message: "Email verified successfully!",
+      });
+    } catch (err) {
+      next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
+    }
+  },
+
+  // Reset password
+  resetPassword: async (req, res, next) => {
+    try {
+      const { email } = req.query;
+
+      if (!email) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Email is required!"));
+      }
+
+      const user = await User.findOne({ email: email, isEmailVerified: true });
+      if (!user) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.NOT_FOUND, "User not found or email is not verified!"));
+      }
+
+      user.codeVerification = uuid.v4();
+      await user.save();
+
+      // **************************************** //
+      // YOU MUST CHANGE THIS METHOD TO YOUR FRONTEND URL //
+      // **************************************** //
+      const resetLink = GenerateResetPasswordEmail(user.email, user.codeVerification);
+
+      await sendResetPasswordEmail(user.email, resetLink);
+
+      return res.status(HTTP_STATUS_CODE.StatusCodes.OK).json({
+        statusCode: HTTP_STATUS_CODE.StatusCodes.OK,
+        message: "Reset password email sent successfully!",
+      });
+    } catch (err) {
+      next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
+    }
+  },
+
+  // Reset password with code
+  resetPasswordWithCode: async (req, res, next) => {
+    try {
+      const { code, email } = req.query;
+
+      const { newPassword } = req.body;
+
+      if (!code || !email || !newPassword) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Code, email and new password are required!"));
+      }
+
+      const user = await User.findOne({ email, codeVerification: code });
+
+      if (!user) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.NOT_FOUND, "User not found or code is invalid!"));
+      }
+
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(newPassword, salt);
+      user.codeVerification = null;
+      await user.save();
+
+      return res.status(HTTP_STATUS_CODE.StatusCodes.OK).json({
+        statusCode: HTTP_STATUS_CODE.StatusCodes.OK,
+        message: "Password reset successfully!",
       });
     } catch (err) {
       next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));

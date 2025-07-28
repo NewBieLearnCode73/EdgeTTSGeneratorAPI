@@ -5,3 +5,4 @@ src/
 build/.
 storage/
 test.js
+fire_base_key.json
