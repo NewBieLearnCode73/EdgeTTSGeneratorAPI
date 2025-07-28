@@ -7,7 +7,7 @@ const AuthRouter = express.Router();
 
 AuthRouter.post("/register", validateRegister, AuthController.registerUser);
 AuthRouter.post("/login", validateLogin, AuthController.loginUser);
-AuthRouter.post("/change-password", AuthController.changePassword);
+AuthRouter.patch("/change-password", AuthController.changePassword);
 AuthRouter.get("/verify-email", AuthController.verifyEmail);
 
 // ****************************************************************** //

@@ -12,6 +12,7 @@ const cors = require("cors");
 const AuthRouter = require("./routes/AuthRouter");
 const VoiceRouter = require("./routes/VoiceRouter");
 const UserQuotaRouter = require("./routes/UserQuotaRouter");
+const UserRouter = require("./routes/UserRouter");
 
 mongoDBConnection(MONGODB_URL);
 
@@ -22,10 +23,11 @@ app.use(cors());
 fetchVoiceListFromEdge();
 
 // Route
+
 app.use("/api/v1/auth", AuthRouter);
 app.use("/api/v1/voices", VoiceRouter);
 app.use("/api/v1/user-quota", UserQuotaRouter);
-
+app.use("/api/v1/users", UserRouter);
 
 app.use(UrlHandleError); // 404 - Not found
 app.use(GlobalHandleError) // 500 - All Error

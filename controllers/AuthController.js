@@ -188,31 +188,31 @@ const AuthController = {
     }
   },
 
-    // Change password
-    changePassword: async (req, res, next) => {
-      try {
-        const { oldPassword, newPassword } = req.body;
-        const userId = req.user.id;
+  // Change password
+  changePassword: async (req, res, next) => {
+    try {
+      const { oldPassword, newPassword } = req.body;
+      const userId = req.user.id;
 
-        const user = await User.findById(userId);
-        if (!user) {
-          return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.NOT_FOUND, "User not found!"));
-        }
-        const isPasswordValid = await bcrypt.compare(oldPassword, user.password);
-        if (!isPasswordValid) {
-          return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Old password is not valid!"));
-        }
-        const salt = await bcrypt.genSalt(10);
-        user.password = await bcrypt.hash(newPassword, salt);
-        await user.save();
-        return res.status(HTTP_STATUS_CODE.StatusCodes.OK).json({
-          statusCode: HTTP_STATUS_CODE.StatusCodes.OK,
-          message: "Password changed successfully!",
-        });
-      } catch (err) {
-        next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
+      const user = await User.findById(userId);
+      if (!user) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.NOT_FOUND, "User not found!"));
       }
-    },
+      const isPasswordValid = await bcrypt.compare(oldPassword, user.password);
+      if (!isPasswordValid) {
+        return next(new ApiError(HTTP_STATUS_CODE.StatusCodes.BAD_REQUEST, "Old password is not valid!"));
+      }
+      const salt = await bcrypt.genSalt(10);
+      user.password = await bcrypt.hash(newPassword, salt);
+      await user.save();
+      return res.status(HTTP_STATUS_CODE.StatusCodes.OK).json({
+        statusCode: HTTP_STATUS_CODE.StatusCodes.OK,
+        message: "Password changed successfully!",
+      });
+    } catch (err) {
+      next(new ApiError(HTTP_STATUS_CODE.StatusCodes.INTERNAL_SERVER_ERROR, err.message));
+    }
+  },
 };
 
 module.exports = AuthController;
