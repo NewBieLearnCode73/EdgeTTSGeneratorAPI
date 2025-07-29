@@ -14,7 +14,18 @@ const loginSchema = Joi.object({
   password: Joi.string().min(6).required(),
 });
 
+const resetPasswordWithCodeSchema = Joi.object({
+  newPassword: Joi.string().min(6).required(),
+});
+
+const changePasswordSchema = Joi.object({
+  oldPassword: Joi.string().min(6).required(),
+  newPassword: Joi.string().min(6).required(),
+});
+
 module.exports = {
   validateRegister: ValidateFunc(registerSchema),
   validateLogin: ValidateFunc(loginSchema),
+  validateResetPasswordWithCode: ValidateFunc(resetPasswordWithCodeSchema),
+  validateChangePassword: ValidateFunc(changePasswordSchema),
 };
