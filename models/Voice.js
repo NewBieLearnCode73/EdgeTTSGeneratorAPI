@@ -21,4 +21,6 @@ const VoiceSchema = new mongoose.Schema({
   },
 });
 
+VoiceSchema.index({ name: 1 }, { unique: true });
+
 module.exports = mongoose.model("Voice", VoiceSchema);

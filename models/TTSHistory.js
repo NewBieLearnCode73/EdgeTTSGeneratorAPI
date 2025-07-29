@@ -24,4 +24,6 @@ const TTSHistorySchema = new mongoose.Schema(
   }
 );
 
+TTSHistorySchema.index({ username: 1, fileName: 1 }, { unique: true });
+
 module.exports = mongoose.model("TTSHistory", TTSHistorySchema);
