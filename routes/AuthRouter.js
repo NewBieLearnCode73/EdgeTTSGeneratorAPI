@@ -6,12 +6,13 @@ const {
   validateResetPasswordWithCode,
   validateChangePassword,
 } = require("../middlewares/validators/AuthValidator");
+const MiddlewareJWTToken = require("../middlewares/auth/MiddlewareJWTToken");
 
 const AuthRouter = express.Router();
 
 AuthRouter.post("/register", validateRegister, AuthController.registerUser);
 AuthRouter.post("/login", validateLogin, AuthController.loginUser);
-AuthRouter.patch("/change-password", validateChangePassword, AuthController.changePassword);
+AuthRouter.patch("/change-password", MiddlewareJWTToken, validateChangePassword, AuthController.changePassword);
 AuthRouter.get("/verify-email", AuthController.verifyEmail);
 
 // ****************************************************************** //

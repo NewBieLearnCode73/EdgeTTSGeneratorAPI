@@ -24,7 +24,7 @@ const UserController = {
   // Profile management
   getProfile: async (req, res, next) => {
     try {
-      const userId = req.user._id;
+      const userId = req.user.id;
       const user = await User.findById(userId).select("-password -codeVerification -createdAt -updatedAt -__v");
 
       if (!user) {

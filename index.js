@@ -9,12 +9,14 @@ const PORT = process.env.SERVER_PORT;
 const MONGODB_URL = process.env.MONGODB_URL;
 const cors = require("cors");
 
+// Routers
 const AuthRouter = require("./routes/AuthRouter");
 const VoiceRouter = require("./routes/VoiceRouter");
 const UserQuotaRouter = require("./routes/UserQuotaRouter");
 const UserRouter = require("./routes/UserRouter");
 const TTSHistoryRouter = require("./routes/TTSHistoryRouter");
 
+// Connect to MongoDB
 mongoDBConnection(MONGODB_URL);
 
 app.use(express.json());

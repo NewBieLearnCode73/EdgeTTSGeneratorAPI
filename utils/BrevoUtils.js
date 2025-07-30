@@ -5,17 +5,17 @@ require("dotenv").config();
 
 const BrevoTemplateAccountVerification = (email, verificationLink) => {
   return {
-    "sender": {
-      "name": "EdgeTTSGenerator",
-      "email": "ndchieu73@gmail.com"
+    sender: {
+      name: "EdgeTTSGenerator",
+      email: process.env.BREVO_SENDER_EMAIL,
     },
-    "to": [
+    to: [
       {
-        "email": email
-      }
+        email: email,
+      },
     ],
-    "subject": "Verify EdgeTTSGenerator Account",
-    "htmlContent": `
+    subject: "Verify EdgeTTSGenerator Account",
+    htmlContent: `
       <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
         <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; text-align: center; border-radius: 10px 10px 0 0;">
           <h1 style="color: white; margin: 0; font-size: 28px;">🎵 EdgeTTSGenerator</h1>
@@ -71,7 +71,7 @@ const BrevoTemplatePasswordReset = (email, resetLink) => {
   return {
     sender: {
       name: "EdgeTTSGenerator",
-      email: "ndchieu73@gmail.com",
+      email: process.env.BREVO_SENDER_EMAIL,
     },
     to: [
       {
