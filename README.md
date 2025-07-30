@@ -66,7 +66,7 @@ JWT_SECRET=your_jwt_secret_key_here
 
 # Email Configuration (Brevo/SendinBlue)
 BREVO_API_KEY=your_brevo_api_key_here
-BREVO_SENDER_EMAIL=your_sender_email@example.com
+BREVO_SENDER_EMAIL=your_email_register_brevo
 
 # Front end
 FRONTEND_URL=your_front_end_url
